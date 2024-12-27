@@ -66,6 +66,24 @@ const Home = () => {
                 <p >Md. Kabirul</p>
             </motion.div>
 
+            <div className='w-32 h-32 mx-auto mt-10 bg-gray-500 flex items-center justify-center'>
+            <motion.div
+                className='w-24 h-24 bg-yellow-700 rounded-full'
+                initial={{ opacity: 0, scale: 0.5 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{
+                    duration: 0.8,
+                    delay: 0.5,
+                    ease: [0, 0.71, 0.2, 1.01]
+                }}
+            >
+
+
+            </motion.div>
+            </div>
+
+         {/* Create a reveal component then just call and put the section inside the <Reavel> put her </Reavel> */}
+         
         </div>
     );
 };
